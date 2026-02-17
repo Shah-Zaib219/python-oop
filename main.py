@@ -36,4 +36,38 @@
 
 ####################      Level TWO
 
+#############      String Operations
+s1="Python"
+s2="Programming"
+s3=s1+" "+s2
+print(s3)
+s4="Hi!"
+print((s4+" ")*5)
+s5="Hello World"
+print(len(s5))
+print(s1[0])
+print(s1[-1])
+print(s1[2])
 
+s6="PythonProgramming"
+print(s6[0:6])
+print(s6[6:len(s6)])
+print(s6[2:10])
+
+s7='PyThOn'
+print(s7.upper())
+print(s7.lower())
+print(s7.title())
+
+s7="banana"
+print(s7.count('a'))
+
+s8="I like Coffee"
+print(s8.replace('Coffee','Tea'))
+
+s9="   Python   "
+print(s9.strip())
+s9=s9.strip()
+print(s9)
+
+print(s9[::-1])  #was incorrctly written as print(s9.reverse()) which is not a valid method for strings. The correct way to reverse a string in Python is to use slicing with a step of -1, as shown above.
