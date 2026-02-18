@@ -73,44 +73,77 @@
 # print(s9[::-1])  #was incorrctly written as print(s9.reverse()) which is not a valid method for strings. The correct way to reverse a string in Python is to use slicing with a step of -1, as shown above.
 
 
-s1='PythonProgramming'
-s11=s1[0:6].upper()
-s12=s1[6:-1].upper()
-s2=s11+" - "+s12
-print(s2)
+# s1='PythonProgramming'
+# s11=s1[0:6].upper()
+# s12=s1[6:-1].upper()
+# s2=s11+" - "+s12
+# print(s2)
 
 
-s3='Data'
-print(s3[::-1]*4)
+# s3='Data'
+# print(s3[::-1]*4)
 
-s4='Programming'
-s41=s4[0:3]
-s4=s4.replace(s4[0:3],s4[len(s4)-3:len(s4)])
-s4=s4.replace(s4[len(s4)-3:len(s4)],s41[0:3])
+# s4='Programming'
+# s41=s4[0:3]
+# s4=s4.replace(s4[0:3],s4[len(s4)-3:len(s4)])
+# s4=s4.replace(s4[len(s4)-3:len(s4)],s41[0:3])
 
-print(s4)
+# print(s4)
 
-s5="Abstraction"
+# s5="Abstraction"
 
-print(f"a: {s5.count('a')}, e: {s5.count('e')}, i: {s5.count('i')}, o: {s5.count('o')}, u: {s5.count('u')}")
+# print(f"a: {s5.count('a')}, e: {s5.count('e')}, i: {s5.count('i')}, o: {s5.count('o')}, u: {s5.count('u')}")
 
-s6="DataScience"
-s61=s6.split('Science')
-s62=s6.split('Data')
-print(s61)
-print(s62)
-s6=s62[1]+s61[0]
-print(s6)
+# s6="DataScience"
+# s61=s6.split('Science')
+# s62=s6.split('Data')
+# print(s61)
+# print(s62)
+# s6=s62[1]+s61[0]
+# print(s6)
 
-s7="Programming"
-print(s7[0:len(s7):2])
+# s7="Programming"
+# print(s7[0:len(s7):2])
 
-s8="Hello Python"
-print("Python" in s8)
+# s8="Hello Python"
+# print("Python" in s8)
 
 
-s9="I like Python and Python is fun"
-print(s9.replace('Python','Java'))
+# s9="I like Python and Python is fun"
+# print(s9.replace('Python','Java'))
 
-s10='    python programming    '
-print(s10.strip())
+# s10='    python programming    '
+# print(s10.strip())
+
+
+#########     LEVEL 1 — Basic Logic + Loops + Lists
+
+for i in range(1,101):
+    print(i)
+
+
+for i in range(1,51):
+    if i%2==0:
+        print(i)
+
+num=int(input('Enter a number: '))
+total=0;
+for i in range(1, num):
+    total+=i
+print(total)
+
+num1=int(input('Enter a number: '))
+for i in range(1, num1+1):
+    print(f"{i} x {num1} = {i*num1}")
+
+
+num2=int(input('Enter a number: '))
+count=0
+while True:
+    if num2<=9:
+        count+=1
+        break
+    else:
+        num2=num2//10
+        count+=1
+print(count)
