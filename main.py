@@ -403,10 +403,24 @@
 #     else:
 #         print('Enter a valid Number')
 
-def sum():
-    num1=int(input('Enter a number: '))
-    num2=int(input('Enter a number'))
-    return num1+num2
+#### LEVEL 1 — Basic Functions & Simple Classes (Foundation)
+##### 1
+# def sum():
+#     num1=int(input('Enter a number: '))
+#     num2=int(input('Enter a number'))
+#     return num1+num2
 
-print(sum())
+# print(sum())
+
+
+###### 2
+def even_odd():
+    num1=int(input('Enter a number: '))
+    if(num1%2==0):
+        print("Even")
+    else:
+        print("odd")
+
+even_odd()
+
 
