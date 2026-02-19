@@ -413,14 +413,18 @@
 # print(sum())
 
 
-###### 2
-def even_odd():
-    num1=int(input('Enter a number: '))
-    if(num1%2==0):
-        print("Even")
-    else:
-        print("odd")
+# ###### 2
+# def even_odd():
+#     num1=int(input('Enter a number: '))
+#     if(num1%2==0):
+#         print("Even")
+#     else:
+#         print("odd")
 
-even_odd()
+# even_odd()
 
-
+###  3
+def square():
+    num1=int(input("Enter a number: "))
+    return num1*num1
+print(square())
