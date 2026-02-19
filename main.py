@@ -315,10 +315,90 @@
 
 ######## 28
 
-list28=[1,2,1,3,4,5,4,3,6,7,5,3,1,2,4,2,5,6,4,2,5,6,3,5,2,4,6,7,4]
-numbers_count={}
-for i in range(0, len(list28)):
-    if i not in numbers_count:
-        n=list28.count(i)
-        numbers_count[i]=n
-print(n)
+# list28=[1,2,1,3,4,5,4,3,6,7,5,3,1,2,4,2,5,6,4,2,5,6,3,5,2,4,6,7,4]
+# numbers_count={}
+# for i in list28:
+#     if i not in numbers_count:
+#         n=list28.count(i)
+#         numbers_count[i]=n
+# print(numbers_count)
+
+
+######## 29
+# str29="python is fun python"
+# frequency_count={}
+# for s in str29:
+#     if s not in frequency_count:
+#         n=str29.count(s)
+#         frequency_count[s]=n
+# print(frequency_count)
+
+
+# ########## 30
+# studen_marks={
+#     "student1": 15,
+#     "student2": 25,
+#     "student3": 95,
+#     "student4": 85,
+#     "student5": 75
+
+# }
+# highest_marks=float('-inf')
+# studen_keys=studen_marks.keys()
+# for student in studen_keys:
+#     if studen_marks[student]>highest_marks:
+#         highest_marks=studen_marks[student]
+#     else:
+#         pass
+# print(highest_marks)
+
+# ############  31
+
+# students={"Ali":80,"Sara":90,"Ahmed":70}
+# students_keys=students.keys()
+# for student in students_keys:
+#     if students[student] >75:
+#         print(student)
+
+
+# ####### 32
+# keys = ["a","b","c"]
+# values = [1,2,3]
+# key_values={}
+# for i in range(0, len(keys)):
+#     key_values[keys[i]]=values[i]
+# print(key_values)
+
+# ####### 33
+# even_list=[]
+# odd_list=[]
+# numbers_list=[1,2,3,4,5,6,7,8,9,8,7,66,9,0,1,2,66]
+# even_odd={}
+# for i in numbers_list:
+#     if i%2==0:
+#         even_list.append(i)
+#     else:
+#         odd_list.append(i)
+# even_odd["even"]=even_list
+# even_odd['odd']=odd_list
+# print(even_odd)
+
+
+# ########## 34
+# bank_options={
+#     1: 'deposit',
+#     2: 'withdraw',
+#     3: 'show balance',
+#     0: 'exit'
+# }
+# flag=True
+# while flag:
+#     print(bank_options)
+#     option=int(input("Enter a number: "))
+#     if option>=1 and option<=3:
+#         print(bank_options[option])
+#     elif option==0:
+#         print("Exit")
+#         flag=False
+#     else:
+#         print('Enter a valid Number')
