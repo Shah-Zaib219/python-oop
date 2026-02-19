@@ -402,3 +402,11 @@
 #         flag=False
 #     else:
 #         print('Enter a valid Number')
+
+def sum():
+    num1=int(input('Enter a number: '))
+    num2=int(input('Enter a number'))
+    return num1+num2
+
+print(sum())
+
