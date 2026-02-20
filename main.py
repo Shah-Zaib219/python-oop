@@ -428,5 +428,16 @@
 #     num1=int(input("Enter a number: "))
 #     return num1*num1
 # print(square())
+
+
+
+##     ******
 for i in range(1, 6):
     print("*", end="")
+
+
+##### square pattern
+for i in range(1, 10):
+    for i in range(1,6):
+        print("*", end="")
+    print("")
