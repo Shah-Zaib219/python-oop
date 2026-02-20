@@ -424,7 +424,9 @@
 # even_odd()
 
 ###  3
-def square():
-    num1=int(input("Enter a number: "))
-    return num1*num1
-print(square())
+# def square():
+#     num1=int(input("Enter a number: "))
+#     return num1*num1
+# print(square())
+for i in range(1, 6):
+    print("*", end="")
