@@ -40,7 +40,7 @@ for i in range(1, num + 1):
     
     print()
 
-num = 5
+num = 7
 
 for i in range(1, num + 1):
     
