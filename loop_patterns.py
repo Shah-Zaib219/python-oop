@@ -39,3 +39,19 @@ for i in range(1, num + 1):
         print("*", end="")
     
     print()
+
+num = 5
+
+for i in range(1, num + 1):
+    
+    # print spaces
+    for j in range(num - i):
+        print(" ", end="")
+    
+    # print stars
+    for k in range(i):
+        print("*", end="")
+    
+    print()
+
+    
