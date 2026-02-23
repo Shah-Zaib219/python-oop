@@ -429,3 +429,9 @@
 #     return num1*num1
 # print(square())
 
+class mathmetical_options:
+    def __init__(self, name):
+        self.name=name
+        print('Welcome {name}')
+
+maths=mathmetical_options("Shah Zaib")
