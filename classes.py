@@ -8,7 +8,7 @@ class mathmetical_options:
 
 maths=mathmetical_options("Shah Zaib")
 sum_num=maths.sum(11,19)
-concatenate_name=maths.sum("Shah ", "Zaib")
-print(f"Sum of two numbers: {sum_num}")
-# print(f"Concatenate wo strings: {concatenate_name}")
+# concatenate_name=maths.sum("Shah ", "Zaib")
+# print(f"Sum of two numbers: {sum_num}")
+# # print(f"Concatenate wo strings: {concatenate_name}")
 
