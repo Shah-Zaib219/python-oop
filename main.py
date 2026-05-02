@@ -17,7 +17,7 @@ print('Hello Python')
 # print(f'Multiplication {num1*num2}')
 # print(f'Division {num1/num2}')
 
-
+print('Even Odd')
 # num3=int(input('Enter a number:'))
 # if num3%2==0:
 #     print('Even')
