@@ -18,7 +18,7 @@ print(type(10), type(10.5), type('zaib'), type(True))
 # Swap values
 a, b = 10, 20
 a, b = b, a
-print(f'Swapped values: a={a}, b={b}')
+# print(f'Swapped values: a={a}, b={b}')
 
 # Arithmetic operations
 num1 = int(input('Enter 1st number: '))
