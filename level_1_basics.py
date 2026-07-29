@@ -5,7 +5,7 @@
 # Print greeting and user name
 # print('Hello Python')
 name = input('Enter your name: ')
-print(f'Welcome {name}')
+# print(f'Welcome {name}')
 
 # Variables
 age = 21
