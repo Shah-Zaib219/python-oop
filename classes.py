@@ -1,4 +1,4 @@
-# print("Hello")
+print("Hello")
 class mathmetical_options:
     def __init__(self, name):
         self.name=name
