@@ -1,4 +1,4 @@
-Level 2 - String Operations
+# Level 2 - String Operations
 
 # Concatenation and repetition
 s1 = "Python"
