@@ -1,7 +1,7 @@
 # Level 1 — Basic Logic, Loops, and Lists
 
 # 1. Print numbers from 1 to 100
-print("Numbers from 1 to 100:")
+# print("Numbers from 1 to 100:")
 for i in range(1, 101):
     print(i, end=' ')
 print("\n")  # Add newline for readability
