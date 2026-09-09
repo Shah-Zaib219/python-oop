@@ -3,7 +3,7 @@
 # Level 1 - Basics
 
 # Print greeting and user name
-print('Hello Python')
+# print('Hello Python')
 name = input('Enter your name: ')
 # print(f'Welcome {name}')
 
