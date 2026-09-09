@@ -3,7 +3,7 @@
 # 25. Add a new key-value pair to a dictionary
 student = {"name": "Ali", "age": 21}
 student['city'] = "Abbottabad"
-print("After adding city:", student)
+# print("After adding city:", student)
 
 # 26. Add marks to student dictionary
 student['marks'] = 3.75
